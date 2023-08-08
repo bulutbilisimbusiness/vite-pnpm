@@ -16,6 +16,7 @@ export default function CardComp() {
         rowSpacing={2}
         justifyContent={"center"}
         columnSpacing={4}
+        mb={4}
       >
         {data.map(({ id, text, img, name }) => (
           <Grid item key={id} xs={12} sm={6} md={4}>

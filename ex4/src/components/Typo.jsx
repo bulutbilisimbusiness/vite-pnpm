@@ -33,6 +33,15 @@ const Typo = () => {
           sx={{ color: "blue", backgroundColor: "palevioletred", mt: "1rem" }}
           align="center"
         >
+          Button text
+        </Typography>
+        <Typography variant="h2" mt={2} color={"koyuTuruncu.light"}>
+          button text
+        </Typography>
+        <Typography variant="h2" mt={2} color={"koyuTuruncu.main"}>
+          button text
+        </Typography>
+        <Typography variant="h2" mt={2} color={"koyuTuruncu.dark"}>
           button text
         </Typography>
       </Box>
@@ -50,7 +59,7 @@ const Typo = () => {
         <Button variant="contained" color="secondary">
           Click
         </Button>
-        <Button variant="contained" color="success">
+        <Button variant="contained" color="koyuTuruncu">
           Click
         </Button>
         <Button variant="contained" color="warning">
